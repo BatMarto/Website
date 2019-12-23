@@ -12,26 +12,14 @@ body{
     position: fixed;
     left: 73%;
 }
-.navbar {
-	font-family: 'Solway', serif;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    transition: all 0.6s ease-out;
-    background: white;
-    scroll-behavior: smooth;
-}
-nav.navbar-inverse {
-    background-color: #222;
-    border-color: #080808;
-}
-nav.navbar.transparent {
-  	background-color:rgba(0,0,0,0);
-}
 
 .nav-item {
 	font-size: 25px;
 	padding-right: 10px;
-	color: white;
+}
+
+a.nav-link{
+	font-family: 'Solway', serif;
 }
 
 .navbar-banner{
@@ -40,14 +28,13 @@ nav.navbar.transparent {
     font-family: 'Hanalei Fill', cursive;
     letter-spacing: 5px;
 }
+
 a.navbar-banner:hover {
     text-decoration: none;
 	color: white;
 }
 
 a.nav-link:hover {
-   -ms-transform: scale(1.16); 
-   -webkit-transform: scale(1.16); 
    transform: scale(1.16);
    transition: 0.7s;
    color: white;
